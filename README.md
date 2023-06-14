@@ -48,7 +48,9 @@ ion](https://github.com/MiladAlipour98/Twitter_Crawl/assets/105122009/51520ce6-2
 - Form an undirected author-mention graph, where nodes represent Twitter accounts and edges represent mentions.
 - Check the degree distribution of the network and compare it with your prediction.
 - Calculate the network diameter, average clustering coefficient, and network density.
-  
+
+#### User_Mention Network
 ![user_mention](https://github.com/MiladAlipour98/Twitter_Crawl/assets/105122009/1b709d80-d485-46ac-80e0-cc4f6372ebed)
 
+#### Degree Distribution
 ![degree](https://github.com/MiladAlipour98/Twitter_Crawl/assets/105122009/64bdb946-61e5-44de-ab78-6cdc498b5a7e)
