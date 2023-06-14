@@ -34,14 +34,14 @@ ion](https://github.com/MiladAlipour98/Twitter_Crawl/assets/105122009/51520ce6-2
 - Extract the names of friends and followers for each user.
 - Output: Multiple files, one for friends and one for followers, named after the Twitter ID of the users.
 
-### Section T: Real-Time Tweet Filtering based on Keywords and Location
+### Section E: Real-Time Tweet Filtering based on Keywords and Location
 - Explain the requirements of this section compared to the previous sections.
 - Collect tweets containing either of the two keywords: "ukraine" or "2022worldcup."
 - Collect tweets issued within a specific geographical area in Iran.
 - Input: Keywords and geographic coordinates.
 - Output: Two files, one containing at least 50 tweets filtered by keywords and the other containing at least 50 tweets filtered by geographic coordinates.
 
-### Section D: Crawler for Specific Keyword
+### Section F: Crawler for Specific Keyword
 - Write a crawler that collects 20 tweets containing the word "Iran" in the tweet text.
 - Output: A file in JSON format containing the information of the 50 requested tweets, named "iran.json."
 
