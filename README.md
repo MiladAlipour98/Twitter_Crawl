@@ -26,26 +26,22 @@ ion](https://github.com/MiladAlipour98/Twitter_Crawl/assets/105122009/51520ce6-2
 
 ### Section C: User Profile Information Retrieval
 - Write code that takes a list of user IDs and collects profile information for each user.
+- Extract the names of friends and followers for each user
 - Input: List of user IDs.
-- Output: Multiple text files, each named after the Twitter ID of the user, containing the profile information in JSON format.
+- Output: Multiple text files, each named after the Twitter ID of the user, containing the profile information, friends, and  followers named after the Twitter ID of the users in JSON format.
 
-### Section D: Network Information Retrieval
-- Write a crawler that takes a list of user IDs and collects network information.
-- Extract the names of friends and followers for each user.
-- Output: Multiple files, one for friends and one for followers, named after the Twitter ID of the users.
-
-### Section E: Real-Time Tweet Filtering based on Keywords and Location
+### Section D: Real-Time Tweet Filtering based on Keywords and Location
 - Explain the requirements of this section compared to the previous sections.
 - Collect tweets containing either of the two keywords: "ukraine" or "2022worldcup."
 - Collect tweets issued within a specific geographical area in Iran.
 - Input: Keywords and geographic coordinates.
 - Output: Two files, one containing at least 50 tweets filtered by keywords and the other containing at least 50 tweets filtered by geographic coordinates.
 
-### Section F: Crawler for Specific Keyword
+### Section E: Crawler for Specific Keyword
 - Write a crawler that collects 20 tweets containing the word "Iran" in the tweet text.
 - Output: A file in JSON format containing the information of the 50 requested tweets, named "iran.json."
 
-### Section 3: Mentions Network
+### Section F: Mentions Network
 - Using the Twitter API, write a program to create a network of connections based on mentions in tweets.
 - Collect 1000 tweets using the Twitter API and stream tweets online.
 - Extract mentions from the tweets.
