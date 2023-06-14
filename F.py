@@ -6,13 +6,12 @@ import matplotlib.pyplot as plt
 
 def main():
     #Authentication
-    os.environ['http_proxy'] = 'socks5://localhost:1080'
-    os.environ['https_proxy'] = 'socks5://localhost:1080'
+   
 
-    consumer_key = "Mckank2901pXvBRP3yYer3gUW"
-    consumer_secret = "pfiUTxpEO6lGyfUZovx5nTvsAqWAINg2uTTbEAXmT2T8DLaikf"
-    access_token = "1264164826185699328-S2Tz9KfXckQivkeSSTi3YwH24GD23l"
-    access_token_secret = "JSU6jQ6Art1xPw29v5zGlIxcpcbk2lz98QyLhgwfwoExl"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
 
     auth = tweepy.OAuth1UserHandler(
         consumer_key, consumer_secret, access_token, access_token_secret
